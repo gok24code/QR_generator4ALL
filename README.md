@@ -90,4 +90,4 @@ Katkıda bulunmak isterseniz, lütfen bir pull request gönderin veya bir issue 
 
 ## Lisans
 
-Bu proje MIT Lisansı ile lisanslanmıştır.
+Bu proje GNU General Public License v3.0 ile lisanslanmıştır.
