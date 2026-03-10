@@ -2,7 +2,7 @@
 
 Bu proje, terminal üzerinden QR kodları oluşturmanıza olanak tanıyan bir Bash scripti içerir. Kullanıcıdan alınan metni QR kodu olarak terminalde görüntüler.
 
-## Gereksinimler
+## Linux Gereksinimleri
 
 Bu scriptin çalışması için aşağıdaki yazılımların sisteminizde kurulu olması gerekir:
 
