@@ -36,28 +36,6 @@ sudo dnf install qrencode
 brew install qrencode
 ```
 
-### Windows
-
-Windows üzerinde bu scripti çalıştırmak için WSL (Windows Subsystem for Linux) kullanabilirsiniz. WSL üzerinde uygun bir Linux dağıtımı kurduktan sonra yukarıdaki adımları takip ederek `qrencode` aracını yükleyebilirsiniz.
-
-### Windows (Python ile)
-
-Windows kullanıcıları için, aşağıdaki Python scriptini kullanabilirsiniz:
-
-1. Python'un sisteminizde kurulu olduğundan emin olun. Python'u [Python.org](https://www.python.org/downloads/) adresinden indirebilirsiniz.
-
-2. Gerekli Python kütüphanesini yükleyin:
-
-   ```bash
-   pip install qrcode
-   ```
-
-3. Aşağıdaki powershell scriptini çalıştırın:
-
-   ```powershell
-    python generator.py
-   ```
-
 ## Kullanım
 
 1. Scripti çalıştırılabilir hale getirin:
@@ -83,6 +61,28 @@ QR kodu oluşturmak için bir metin girin: Merhaba Dünya
 [YOUR GENERATED CODE IMAGE]
 QR kodu başarıyla oluşturuldu!
 ```
+
+### Windows
+
+Windows üzerinde bu scripti çalıştırmak için WSL (Windows Subsystem for Linux) kullanabilirsiniz. WSL üzerinde uygun bir Linux dağıtımı kurduktan sonra yukarıdaki adımları takip ederek `qrencode` aracını yükleyebilirsiniz.
+
+### Windows (Python ile)
+
+Windows kullanıcıları için, aşağıdaki Python scriptini kullanabilirsiniz:
+
+1. Python'un sisteminizde kurulu olduğundan emin olun. Python'u [Python.org](https://www.python.org/downloads/) adresinden indirebilirsiniz.
+
+2. Gerekli Python kütüphanesini yükleyin:
+
+   ```bash
+   pip install qrcode
+   ```
+
+3. Aşağıdaki powershell scriptini çalıştırın:
+
+   ```powershell
+    python generator.py
+   ```
 
 ## Katkıda Bulunma
 
